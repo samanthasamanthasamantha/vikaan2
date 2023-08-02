@@ -1,0 +1,53 @@
+
+@media(max-width: 1300px) {
+    header .navbar1 {
+        display: none;
+    }
+
+    header .menubar {
+        display: block;
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 786px) {
+    header .navbar2 {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 600px) {
+    .banner-image {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        align-items: center;
+    }
+    .banner h2 {
+        font-size: 6vw;
+    }
+    .banner h1 {
+        font-size: 8vw;
+    }
+    .banner .second-heading{
+        font-size: 8vw;
+    }
+    .banner p{
+        font-size: 3vw;
+    }
+    .banner button{
+        font-size: 4vw;
+    }
+    .banner .dash span{
+        width: 6vw;
+    }
+}

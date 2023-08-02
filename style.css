@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    background: white;
+}
+
+header .image {
+    padding-left: 30px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 34px;
+}
+
+.navbar .active{
+    background: green;
+    padding: 6px 20px;
+    color: white;
+    border-radius: 19px;
+}
+
+.navbar .fa-solid.fa-phone {
+    color: white;
+    background: green;
+    padding: 9px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.navbar .nav-btn{
+    color: white;
+    background: coral;
+    padding: 9px 14px;
+    border-radius: 18px;
+}
+.menubar{
+    display: none;
+}
+
+/* banner */
+
+.banner{  
+    border-top: 1px solid coral;
+    border-bottom: 1px solid coral;
+}
+
+.banner .text-image{
+    padding: 40px;
+    display: flex;   
+    align-items: center;
+    
+}
+.banner .text{
+    line-height: 5vh;
+}
+
+.banner h2 {
+    color: green;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.banner h2 span {
+    color: orange;
+}
+
+.banner h1{
+    font-size: 3.7vw;
+}
+
+.banner .second-heading{
+    color: green;
+    font-size: 3.7vw;
+}
+
+.banner p{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.banner button{
+    background: coral;
+    color: white;
+    border-radius: 22px;
+    padding: 8px 31px;
+    font-size: 2vw;
+    border: none;
+}
+
+.banner .dash span{
+    display: inline-block;  
+    width: 3vw;
+}
+
+.banner .dash1 {
+    background: green;
+    color: green;
+    height: 4px;  
+}
+
+.banner .dash2{
+    background: grey;
+    color: grey;
+    height: 4px;
+}
+.banner .dash3{
+    background: grey;
+    color: grey;
+    height: 4px;
+}
+.banner .dash4{
+    background: grey;
+    color: grey;
+    height: 4px;
+}
+
+.banner img{
+    width: 100%;
+   height: auto;
+}
+
+/* services */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.service{
+    margin: 16px 0;
+}
+
+.service p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.service1{
+    background: url(./service1.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 69px;
+    line-height: 21px;
+}
+
+.service2{
+    background: url(./service2.png) no-repeat;
+    background-size: cover;
+    padding: 125px 69px;
+    line-height: 21px;
+}
+
+.service3{
+    background: url(./service3.png) no-repeat;
+    background-size: cover;
+    padding: 106px 69px 167px;
+    line-height: 21px;
+}
+
+.service4{
+    background: url(./service4.png) no-repeat;
+    background-size: cover;
+    padding: 106px 69px 167px;
+    line-height: 21px;
+}
+
+/* work */
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 72px;
+}
+
+.work i{
+    color: white;
+    background: green;
+    padding: 14px 16px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.work-gallery{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.work-gallery img {
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 72px 188px;
+    line-height: 2;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer .footer-nav {
+    display: flex;
+    justify-content: center;
+    line-height: 58px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.footer-nav .active{
+    color: green;
+}
+
+i.fa-solid.fa-location-dot {
+    color: green;
+    font-size: 3.5em;
+}
+
+i.fa-brands.fa-facebook-f,
+i.fa-brands.fa-linkedin-in,
+i.fa-brands.fa-twitter,
+i.fa-brands.fa-instagram,
+i.fa-brands.fa-youtube {
+    padding: 11px;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    margin-right: -40px;
+    color: white;
+}
+
+i.fa-brands.fa-facebook-f {
+    background: blue;
+}
+
+i.fa-brands.fa-linkedin-in {
+    color: white;
+    background: #2d559d;
+}
+
+i.fa-brands.fa-twitter {
+    background: deepskyblue;
+}
+
+i.fa-brands.fa-instagram {
+    background: linear-gradient(#e312e3, #dd082d, #f7f712);
+    border-radius: 14px;
+}
+
+i.fa-brands.fa-youtube {
+    background: red;
+}
